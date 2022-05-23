@@ -1,0 +1,173 @@
+{
+    "red": [
+        {
+            "vlzsopntp1": "conn"
+        },
+        {
+            "vlzswgesServ1": "conn"
+        },
+        {
+            "vlzswsipsOyM": "conn"
+        },
+        {
+            "vlzswsipsOyM-1": "conn"
+        },
+        {
+            "vlzswsipsSERV": "conn"
+        },
+        {
+            "vlzswsipsSERV-1": "conn"
+        },
+        {
+            "vlzugsip1": "work"
+        },
+        {
+            "vlzugsip2": "work"
+        },
+        {
+            "vlzugsip4": "conn"
+        }
+    ],
+    "yellow": [
+        {
+            "flobladeDsg5-rc": "conn"
+        },
+        {
+            "flofesg2cl.flo": "msgs"
+        },
+        {
+            "flofesg3cl.flo": "files"
+        },
+        {
+            "flofesg4cl.flo": "ports"
+        },
+        {
+            "flofesg5cl.flo": "ports"
+        },
+        {
+            "flosop01": "logins"
+        },
+        {
+            "flosop02": "syncXymon"
+        },
+        {
+            "flosop02": "smoke"
+        },
+        {
+            "flosop07": "bond"
+        },
+        {
+            "flosop15": "cpuR"
+        },
+        {
+            "flotgsg1": "DWH"
+        },
+        {
+            "flotgsg1": "IPs_up"
+        },
+        {
+            "vlz3bebdsdp2": "HDLM"
+        },
+        {
+            "vlz3bedwh3": "vmio"
+        },
+        {
+            "vlz3bedwh3": "HDLM"
+        },
+        {
+            "vlz3besg12": "memory"
+        },
+        {
+            "vlz3fedsdp5c": "conn"
+        },
+        {
+            "vlz3fedsdp6c": "conn"
+        },
+        {
+            "vlz4fedsdp5c": "conn"
+        },
+        {
+            "vlz4fedsdp6c": "conn"
+        },
+        {
+            "vlzbastivr2": "memory"
+        },
+        {
+            "vlzbesg19": "conn"
+        },
+        {
+            "vlzhpocmp2": "MG"
+        },
+        {
+            "vlzhpocmpt1.telefonica.ar": "SIP"
+        },
+        {
+            "vlzhpocmpt1.telefonica.ar": "cpu"
+        },
+        {
+            "vlzhprs1.telefonica.ar": "memory"
+        },
+        {
+            "vlzhpseet1.telefonica.ar": "SEE"
+        },
+        {
+            "vlzsop01": "IPs_up"
+        },
+        {
+            "vlzsop03": "Date"
+        },
+        {
+            "vlzsop05": "thold_cacti"
+        },
+        {
+            "vlzsop05": "smoke"
+        },
+        {
+            "vlzsop05": "syncXymon"
+        },
+        {
+            "vlzsop08": "disk"
+        },
+        {
+            "vlzsopbl06": "User_local"
+        },
+        {
+            "vlzsopbl06": "inode"
+        },
+        {
+            "vlzsopbl06": "disk"
+        },
+        {
+            "vlzsopbl06": "logins"
+        },
+        {
+            "vlzugsip1": "E1"
+        },
+        {
+            "vlzugsip4": "Date"
+        },
+        {
+            "vlzxensan01": "memory"
+        }
+    ],
+    "green": [
+        {
+            "vlztgsg": "conn"
+        },
+        {
+            "vlzMSUYrouterSERV-hsrp": "conn"
+        },
+        {
+            "vlzsop03": "ntp"
+        },
+        {
+            "vlzswgesOyM1": "conn"
+        },
+        {
+            "vlzswdtvtl01": "port_status"
+        },
+        {
+            "vlzugsip1": "procs"
+        }
+    ]
+}

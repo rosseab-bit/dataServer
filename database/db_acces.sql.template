@@ -1,0 +1,7 @@
+CREATE TABLE Users (
+	User_id INTEGER PRIMARY KEY,
+  Public_id TEXT NOT NULL,
+	Username TEXT NOT NULL,
+  Password TEXT NOT NULL,
+  Date TEXT NOT NULL
+);

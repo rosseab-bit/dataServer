@@ -1,0 +1,9 @@
+Flask
+idna
+Jinja2
+PyMySQL
+requests
+typing-extensions
+urllib3
+Werkzeug
+zipp

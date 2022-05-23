@@ -1,0 +1,8 @@
+{
+  "server":{
+    "host":"192.168.0.161",
+    "port":3000
+  },
+  "access":"qjZq6EL8Ua5mGJfv",
+  "secret_key":"a3932cf1fcbf9fece4f5dd328ae74df770cae2ed0deded200c376c6345fab85d"
+}
