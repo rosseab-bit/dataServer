@@ -16,15 +16,6 @@
             "vlzswsipsSERV": "conn"
         },
         {
-            "vlzswsipsSERV-1": "conn"
-        },
-        {
-            "vlzugsip1": "work"
-        },
-        {
-            "vlzugsip2": "work"
-        },
-        {
             "vlzugsip4": "conn"
         }
     ],
@@ -168,6 +159,15 @@
         },
         {
             "vlzugsip1": "procs"
+        },
+        {
+            "vlzswsipsSERV-1": "conn"
+        },
+        {
+            "vlzugsip1": "work"
+        },
+        {
+            "vlzugsip2": "work"
         }
     ]
 }

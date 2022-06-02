@@ -3,7 +3,4 @@ vlzswgesServ1|conn
 vlzswsipsOyM|conn
 vlzswsipsOyM-1|conn
 vlzswsipsSERV|conn
-vlzswsipsSERV-1|conn
-vlzugsip1|work
-vlzugsip2|work
 vlzugsip4|conn
