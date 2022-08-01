@@ -1,6 +1,4 @@
-vlzsopntp1|conn
-vlzswgesServ1|conn
-vlzswsipsOyM|conn
-vlzswsipsOyM-1|conn
-vlzswsipsSERV|conn
-vlzugsip4|conn
+hostname1|service
+hostname2|service
+hostname3|service
+hostname4|process

@@ -1,9 +1,4 @@
-vlztgsg|conn
-vlzMSUYrouterSERV-hsrp|conn
-vlzsop03|ntp
-vlzswgesOyM1|conn
-vlzswdtvtl01|port_status
-vlzugsip1|procs
-vlzswsipsSERV-1|conn
-vlzugsip1|work
-vlzugsip2|work
+hostname1|service
+hostname2|service
+hostname3|service
+hostname4|process

@@ -11,7 +11,6 @@ from functools import wraps
 app = Flask(__name__)
 server=json.loads(open('conf.d/server.json').read())
 app.secret_key=server['secret_key']
-#app.config['SECRET_KEY']=server['secret_key']
 app.register_blueprint(routes)
 
 

@@ -1,6 +1,5 @@
-FROM ubuntu
-WORKDIR /data_xymon
-RUN apt-get update && apt-get install -y python3 && apt-get install -y python3-pip
+FROM python:3.9.13-alpine3.15
+WORKDIR /dataServer
 COPY . .
-RUN pip3 install -r conf.d/requeriments.txt
+RUN pip install -r /dataServer/conf.d/requeriments.txt
 CMD ["python3", "/data_xymon/app.py"]
