@@ -4,9 +4,9 @@ import json
 
 
 def formatJSON():
-    dataRed=open('/home/hunter/Escritorio/developer/github/data_xymon/tmp/dataRed.txt')
-    dataYellow=open('/home/hunter/Escritorio/developer/github/data_xymon/tmp/dataYellow.txt')
-    dataGreen=open('/home/hunter/Escritorio/developer/github/data_xymon/tmp/dataGreen.txt')
+    dataRed=open('tmp/dataRed.txt')
+    dataYellow=open('tmp/dataYellow.txt')
+    dataGreen=open('tmp/dataGreen.txt')
     json_data={"red":[],
                 "yellow":[],
                 "green":[]}
@@ -36,7 +36,7 @@ def formatJSON():
     json_data['yellow']=yellow
     json_data['green']=green
     #writeJson=open('', 'w')
-    with open('/home/hunter/Escritorio/developer/github/data_xymon/database/db.json', 'w') as file:
+    with open('database/db.json', 'w') as file:
         json.dump(json_data, file, indent=4)
     return 'alarms success'
 

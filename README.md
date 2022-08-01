@@ -22,3 +22,24 @@ docker attacheando unidades que estan descriptas en el script. Son para la base 
 * Alarmas :  Tenemos tres niveles de alarmas [green, yellow, red] las alarmas deben ser cargadas en los archivos de tmp una debajo de otra. 
 hostname|alarma sin espacios una debajo de la otra. estas alarmas pueden ser cargadas mediante un cron y scripts de bash. de esta forma podrias 
 manejar el tiempo y que monitorear. Mediante la api podrias servir estos datos para poder enviar alertas desde algun cliente que consuma la api.
+
+
+## Instalacion ##
+1. Dentro de la carpeta conf.d se econtrara el archivo de configuracion. server.json, dentro de este archivo tendremos las
+configuraciones del server y ademas la configuracion de registro. en "access" tendremos que establecer la clave para que las 
+personas se registren con un Nick y poder darles un Token para que realicen las consultas a la API. Tambien encontraremos 
+el secret_key.
+
+2. Dentro de database encontraremos la base de datos que se genera con cada uno de los registros y los tokens generados para cada usuario que consultara la api.
+
+3. Para poder correr la api solo necesitamos ejecutar setup.py esto nos levantara un contenedor en Docker. y persistira archivos
+de la base de datos. y archivos temporales. 
+
+4. Las alarmas que se sirven tienen que estar en tmp en los archivos red, green, yellow. las alarmas deben ir una debajo de la otra
+en par hostname separado por un | y la alarma. 
+Estas alarmas se pueden cargar automaticamente mediante algun script bash. Y esto se actualizara en la api. 
+
+
+## Por cualquier consulta. 
+
+[LinkedIn](https://www.linkedin.com/in/roseabdev/)

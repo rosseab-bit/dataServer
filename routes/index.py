@@ -10,7 +10,7 @@ from . import routes
 from functools import wraps
 from packages.tokenValidator import token_required
 from packages.formatDataJSON import formatJSON
-@routes.route('/dataxymon', methods=['GET'])
+@routes.route('/dataserver', methods=['GET'])
 @token_required
 def dbGet(current_user):
     if request.method == "GET":
