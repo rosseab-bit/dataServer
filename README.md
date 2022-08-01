@@ -46,4 +46,4 @@ ya que tiene uno de prueba con el que realice los test.
 
 ## Consultas.- 
 
-[LinkedIn](https://www.linkedin.com/in/roseabdev/)
+ [LinkedIn - Ricardo Benitez](https://www.linkedin.com/in/roseabdev/)
