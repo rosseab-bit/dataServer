@@ -40,6 +40,10 @@ en par hostname separado por un | y la alarma.
 Estas alarmas se pueden cargar automaticamente mediante algun script bash. Y esto se actualizara en la api. 
 
 
-## Por cualquier consulta. 
+## Cliente 
+Dentro del repo se encuetra authClient.py que es un simple cliente para realizar consultas a la api. se debe cargar el usuario 
+ya que tiene uno de prueba con el que realice los test. 
+
+## Consultas.- 
 
 [LinkedIn](https://www.linkedin.com/in/roseabdev/)
